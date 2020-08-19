@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+$font-stack: 'Karla', sans-serif;
+$primary-color: #333;
+
+html {
+    background: pink;
+}
+p {
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+h1 {
+    font-family: 'Lora', sans-serif; 
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+
+}
+h2 {
+    font-family: 'Lora', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+a {
+    color: black;
+}

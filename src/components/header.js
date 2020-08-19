@@ -3,8 +3,8 @@ import React from "react"
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 const Header = ({ siteTitle }) => (
-    <Navbar collapseOnSelect expand="lg" className="color-nav" variant="light">
-    <Navbar.Brand>{siteTitle}</Navbar.Brand>
+    <Navbar collapseOnSelect expand="lg" className="color-nav" variant="light" sticky="top">
+    <Navbar.Brand><p>{siteTitle}</p></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto" activeKey="/home">
