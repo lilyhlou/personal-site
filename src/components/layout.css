@@ -93,7 +93,7 @@ dfn {
 }
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 1.67em 0;
 }
 mark {
   background-color: #ff0;
@@ -218,10 +218,12 @@ textarea {
 html {
   font: 112.5%/1.45em georgia, serif;
   box-sizing: border-box;
+
   overflow-y: scroll;
 }
 * {
   box-sizing: inherit;
+
 }
 *:before {
   box-sizing: inherit;
