@@ -2,7 +2,6 @@ import React from "react"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { graphql, StaticQuery, Link } from "gatsby"
 import BackgroundImage from "gatsby-background-image"
-import SecondPage from "./page-2.js";
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
@@ -41,10 +40,6 @@ const IndexPage = () => (
         <br />
         <br />
         <br />
-
-        <SecondPage></SecondPage>
-
-        <SecondPage></SecondPage>
         </Layout>
 
           )

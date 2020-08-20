@@ -7,30 +7,51 @@ import Image from "../components/image"
 import '../styles/global.scss';
 import { graphql, StaticQuery } from "gatsby"
 import Img from "gatsby-image"
+import Typewriter from 'typewriter-effect';
+import GraphemeSplitter from "grapheme-splitter";
 
+const MainPage = () => {
+  const stringSplitter = string => {
+    const splitter = new GraphemeSplitter();
+    return splitter.splitGraphemes(string);
+  };
+  
+  const styles = {
+    overflow: "hidden",
+  };
 
-const MainPage = () => (
+ return (
         <div>
-        <br />
-        <br />
-        <br />
-        <br />
-
-            <h1 className="main">Hey, I'm Lily.</h1>
-          
-          < br />
-
-          <p> I like setting high scores in 2048.</p>
-      
-          <p>Currently working as a developer for Federal projects at IBM in Washington D.C. Previously, a journalist writing about pop culture and the internet.    </p>
+          <br />
+          <br />
+          <br />
+          <br />
+          <h1 className="main">Hey, I'm Lily.</h1>
+        <div className="typeDiv">
+          <div className="type"> I like&nbsp;</div>
+          <div className="type"> 
+            <Typewriter
+              options={{
+                strings: ['new media and technologies 👩🏻‍💻🌠','setting high scores in 2048 🕹👾', ' making pesto pasta from scratch 🍽', ' making Twitter bots 🐥',' learning about democracy and politics 🗞🗳', ' Asian American studies 📚', ' splurging on ice cream 🍦🃏', ' making Spotify playlists 🔈'],
+                autoStart: true,
+                loop: true,
+                delay: 100,
+                stringSplitter
+              }}
+            />
+          </div>
+        </div>
+          <p>Currently working as a developer for Federal projects at IBM in Washington D.C. Previously, a journalist writing about pop culture and the internet.   </p>
           < br />
           < br />
 
         </div>
 
-              )
+              );
+}
   
   
   
   export default MainPage
+  
   
