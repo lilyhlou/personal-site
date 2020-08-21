@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+$font-stack: 'Karla', sans-serif;
+$primary-color: #333;
+
+
+
+a {
+    color: black;
+}
+#projects {
+    margin-top: 25vh;
+}  
+
+
+@media only screen and (max-width: 800px) {
+    #projects {
+        margin-top: 10vh;
+    }  
+}
+@media only screen and (max-width: 500px) {
+    #projects {
+        margin-top: 20vh;
+    }  
+}
+@media only screen and (max-width: 400px) {
+    #projects {
+        margin-top: 40vh;
+    }  
+}

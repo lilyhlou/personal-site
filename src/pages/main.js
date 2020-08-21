@@ -21,15 +21,16 @@ const MainPage = () => {
   };
 
  return (
-        <div>
+        <div id="header" className="flex">
           <br />
           <br />
           <br />
           <br />
           <h1 className="main">Hey, I'm Lily.</h1>
+
         <div className="typeDiv">
-          <div className="type"> I like&nbsp;</div>
-          <div className="type"> 
+          <p className="type"> I like&nbsp;</p>
+          <p className="type"> 
             <Typewriter
               options={{
                 strings: ['new media and technologies 👩🏻‍💻🌠','setting high scores in 2048 🕹👾', ' making pesto pasta from scratch 🍽', ' making Twitter bots 🐥',' learning about democracy and politics 🗞🗳', ' Asian American studies 📚', ' splurging on ice cream 🍦🃏', ' making Spotify playlists 🔈'],
@@ -39,11 +40,10 @@ const MainPage = () => {
                 stringSplitter
               }}
             />
-          </div>
+          </p>
+          <br />
         </div>
           <p>Currently working as a developer for Federal projects at IBM in Washington D.C. Previously, a journalist writing about pop culture and the internet.   </p>
-          < br />
-          < br />
 
         </div>
 

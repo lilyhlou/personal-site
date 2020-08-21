@@ -7,24 +7,11 @@ $primary-color: #333;
 html {
     background: pink;
 }
-p {
-    font-family: 'Karla', sans-serif;
-    font-size: 40px;
-    text-align: center;
 
-}
-
-h1 {
-    font-family: 'Lora', sans-serif; 
-    font-weight: bold;
-    font-size: 100px;
-    text-align: center;
-
-}
 h2 {
     font-family: 'Lora', sans-serif;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 a {
@@ -39,10 +26,11 @@ a {
 
 .type {
     font-family: 'Karla', sans-serif;
-    font-size: 30px;
+    font-size: 2.25rem;
     color: #434343;
     text-align: center;
-      display: inline-block;
+    display: inline-block;
+    word-break: break-word;
   
 }
 
@@ -50,3 +38,12 @@ a {
     text-align: center;
 }
 
+#header {
+    height: 80vh;
+    margin-bottom: 50px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}

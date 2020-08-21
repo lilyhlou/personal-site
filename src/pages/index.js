@@ -7,6 +7,8 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import '../styles/global.scss';
 import MainPage from "./main.js";
+import Projects from "./projects.js";
+
 
 const IndexPage = () => (
   <StaticQuery
@@ -32,14 +34,7 @@ const IndexPage = () => (
           <MainPage></MainPage>
         </BackgroundImage>
 
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <Projects></Projects>
         </Layout>
 
           )
