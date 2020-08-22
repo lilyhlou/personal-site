@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { graphql, StaticQuery, Link } from "gatsby"
 import BackgroundImage from "gatsby-background-image"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import '../styles/global.scss';
 import MainPage from "./main.js";
@@ -16,7 +15,7 @@ const IndexPage = () => (
   query {
     background: file(relativePath: {eq: "blob.png"}) {
       childImageSharp {
-        fluid(maxHeight: 1000) {
+        fluid(maxHeight: 2000) {
           ...GatsbyImageSharpFluid
         ...GatsbyImageSharpFluidLimitPresentationSize        }
       }

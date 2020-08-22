@@ -43,7 +43,7 @@ const MainPage = () => {
           </p>
           <br />
         </div>
-          <p>Currently working as a developer for Federal projects at IBM in Washington D.C. Previously, a journalist writing about pop culture and the internet.   </p>
+          <p>Currently working as a developer for federal projects at IBM in Washington D.C. Previously, a journalist writing about pop culture and the internet.   </p>
 
         </div>
 
