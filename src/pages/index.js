@@ -15,7 +15,7 @@ const IndexPage = () => (
   query {
     background: file(relativePath: {eq: "blob.png"}) {
       childImageSharp {
-        fluid(maxHeight: 2000) {
+        fluid(maxWidth: 2000) {
           ...GatsbyImageSharpFluid
         ...GatsbyImageSharpFluidLimitPresentationSize        }
       }

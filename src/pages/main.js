@@ -44,6 +44,9 @@ const MainPage = () => {
           <br />
         </div>
           <p>Currently working as a developer for federal projects at IBM in Washington D.C. Previously, a journalist writing about pop culture and the internet.   </p>
+          <br />
+          <br />
+          <br />
 
         </div>
 
