@@ -7,7 +7,7 @@ import '../styles/card.scss';
 
 const Page = ({ title, subtitle, path, date, body, tech, image}) => {
     return(
-        <Card className="container">
+        <Card containerStyle={{elevation:0, backgroundColor:"#123"}} className="container">
             <Img fluid={image} className="img-fluid image" alt="Card image" />
             <Card.ImgOverlay>
             <div className="overlay">
