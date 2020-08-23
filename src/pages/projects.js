@@ -10,7 +10,6 @@ import {Card, CardGroup} from 'react-bootstrap'
 const Projects = () => (
   <div className="flex" id="projects">
     <h3>Featured Projects</h3>
-
     <StaticQuery 
       query={projectsQuery}
       render={data => {

@@ -8,18 +8,17 @@ import '../styles/card.scss';
 const Page = ({ title, subtitle, path, date, body, tech, image}) => {
     return(
         <Card>
-            <Card.Img src={image.src} className="img-fluid" alt="Card image" />
+            <Card.Img src={image.src} alt={title}/>
             <Card.ImgOverlay>
-            <div class="overlay">
-            <Card.Title className="hoverText"> {title} </Card.Title>
-                <Card.Subtitle>{subtitle}</Card.Subtitle>
-                <Card.Subtitle>{path}</Card.Subtitle>
-                <Card.Subtitle> {date} </Card.Subtitle>
-                <Card.Subtitle> {tech} </Card.Subtitle>
-                <Card.Body> {body} </Card.Body>
-                </div>
 
+            <Card.Body className="overlay">
+                <div className="text"> 
+                <Card.Title>{title}</Card.Title>
+                <Card.Subtitle > {subtitle} </Card.Subtitle>
+                </div>
+            </Card.Body>
             </Card.ImgOverlay>
+
         </Card>
 
     )

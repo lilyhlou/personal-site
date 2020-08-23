@@ -1,44 +1,72 @@
 .container {
-    position: relative;
-    width: 50%;
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 93%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.card:hover .overlay {
+  opacity: .5;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card {
+  min-width: 40%; // See https://github.com/twbs/bootstrap/pull/22740#issuecomment-305868106
+  margin: 10px;
+  border: none!important;
   }
-  
-  .image {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: black;
-  }
-  
-  .card:hover .overlay {
-    opacity: .5;
-  }
-  
-  .text {
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  .card {
-    min-width: 500px; // See https://github.com/twbs/bootstrap/pull/22740#issuecomment-305868106
-    margin: 10px;
-    border: none!important;
+
+  @media only screen and (max-width: 1024px) {
+    .overlay {
+      height: 91%;
     }
+  }
+  @media only screen and (max-width: 768px) {
+    .overlay {
+      height: 89%;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .overlay {
+      height: 91.05%;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .overlay {
+      height: 89.7%;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    .overlay {
+      height: 87.7%;
+    }
+  }
+

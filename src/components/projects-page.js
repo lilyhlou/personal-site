@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 import '../styles/global.scss';
 import '../styles/card.scss';
 
-const Page = ({ title, subtitle, path, date, body, tech, image}) => {
+const PageDraft = ({ title, subtitle, path, date, body, tech, image}) => {
     return(
         <Card className="container card" border="white">
             <Img fluid={image} className="img-fluid image" alt="Card image"  />
@@ -24,4 +24,4 @@ const Page = ({ title, subtitle, path, date, body, tech, image}) => {
 
     )
 }
-export default Page
+export default PageDraft
