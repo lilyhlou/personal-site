@@ -22,7 +22,7 @@
     background-color: black;
   }
   
-  .container:hover .overlay {
+  .card:hover .overlay {
     opacity: .5;
   }
   
@@ -37,3 +37,8 @@
     text-align: center;
   }
   
+  .card {
+    min-width: 500px; // See https://github.com/twbs/bootstrap/pull/22740#issuecomment-305868106
+    margin: 10px;
+    border: none!important;
+    }

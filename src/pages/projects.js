@@ -3,7 +3,7 @@ import { Link, graphql, StaticQuery } from "gatsby"
 import '../styles/global.scss';
 import '../styles/projects.scss';
 import Img from "gatsby-image"
-import Page from "../components/projects-page"
+import Page from "../components/og-projects-page"
 import SEO from "../components/seo"
 import {Card, CardGroup} from 'react-bootstrap'
 
