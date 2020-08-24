@@ -157,7 +157,7 @@ textarea {
   margin: 0;
 }
 optgroup {
-  font-weight: 700;
+  font-weight: 400;
 }
 button,
 input {
@@ -228,9 +228,8 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font: 'Karla, san-serif';
   box-sizing: border-box;
-
   overflow-y: scroll;
 }
 * {
@@ -244,8 +243,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  color: #434343;
+  font-family: 'Karla', sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
