@@ -10,6 +10,7 @@ exports.components = {
   "component---src-pages-index-js": hot(preferDefault(require("/Users/lilylou/Documents/Personal Projects/personal-site/src/pages/index.js"))),
   "component---src-pages-main-js": hot(preferDefault(require("/Users/lilylou/Documents/Personal Projects/personal-site/src/pages/main.js"))),
   "component---src-pages-projects-js": hot(preferDefault(require("/Users/lilylou/Documents/Personal Projects/personal-site/src/pages/projects.js"))),
-  "component---src-pages-using-typescript-tsx": hot(preferDefault(require("/Users/lilylou/Documents/Personal Projects/personal-site/src/pages/using-typescript.tsx")))
+  "component---src-pages-using-typescript-tsx": hot(preferDefault(require("/Users/lilylou/Documents/Personal Projects/personal-site/src/pages/using-typescript.tsx"))),
+  "component---src-pages-writing-js": hot(preferDefault(require("/Users/lilylou/Documents/Personal Projects/personal-site/src/pages/writing.js")))
 }
 

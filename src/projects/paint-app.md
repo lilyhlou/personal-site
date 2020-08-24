@@ -2,7 +2,7 @@
 path: "/paint-app"
 date: Fall 2017
 title: "Paint App"
-subtitle: "Interactive paint app"
+subtitle: "Image editor using Java UI including drawing functionality, adjustments to image, and pixel inspector. Extended app to create a movable 9-piece puzzle."
 tech: "JavaFX"
 source: 'github.com'
 image: "../images/paint-app.png"

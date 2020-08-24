@@ -7,6 +7,7 @@ exports.components = {
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-main-js": () => import("./../../../src/pages/main.js" /* webpackChunkName: "component---src-pages-main-js" */),
   "component---src-pages-projects-js": () => import("./../../../src/pages/projects.js" /* webpackChunkName: "component---src-pages-projects-js" */),
-  "component---src-pages-using-typescript-tsx": () => import("./../../../src/pages/using-typescript.tsx" /* webpackChunkName: "component---src-pages-using-typescript-tsx" */)
+  "component---src-pages-using-typescript-tsx": () => import("./../../../src/pages/using-typescript.tsx" /* webpackChunkName: "component---src-pages-using-typescript-tsx" */),
+  "component---src-pages-writing-js": () => import("./../../../src/pages/writing.js" /* webpackChunkName: "component---src-pages-writing-js" */)
 }
 

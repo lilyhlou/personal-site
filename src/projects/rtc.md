@@ -2,7 +2,7 @@
 path: "/rtc"
 date: Summer 2020
 title: "Women of Rewriting the Code Membership Directory and Visualization"
-subtitle: "directory"
+subtitle: "Searchable directory and data visualizations for Women of Rewriting the Code's Rewrite Your Summer. Won 3rd place of all fellow projects."
 tech: "React, Tableau, Express"
 source: 'github.com'
 image: "../images/rtc.png"

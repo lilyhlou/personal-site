@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import '../styles/global.scss';
 import MainPage from "./main.js";
 import Projects from "./projects.js";
+import Writing from "./writing.js";
 
 
 const IndexPage = () => (
@@ -34,6 +35,7 @@ const IndexPage = () => (
         </BackgroundImage>
 
         <Projects></Projects>
+        <Writing></Writing>
         </Layout>
 
           )

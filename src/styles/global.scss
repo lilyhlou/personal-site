@@ -13,10 +13,20 @@ h2 {
     font-weight: bold;
     font-size: 2.5rem;
 }
-
-a {
-    color: black;
+p {
+    font-size: 1rem;
 }
+
+p a {
+    color: #A9A9A9;
+}
+
+p a:hover {
+    color: #D3D3D3;
+    text-decoration: none;
+
+}
+
 
 #background-intro {
     background-size: 100% 100%;
