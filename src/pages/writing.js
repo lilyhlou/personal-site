@@ -19,6 +19,8 @@ const Writing = () => (
       <p><a href="https://lifehacker.com/what-is-a-grand-jury-and-how-does-it-impact-the-russia-1797538788" target="_blank">What Is a Grand Jury and How Does It Impact the Russia Investigation?</a> for Lifehacker</p>
       <p><a href="http://www.guilfordian.com/news/2015/04/10/the-future-of-cce-how-budget-cuts-may-affect-the-program/#sthash.9iYsxQIs.dpuf" target="_blank" >The Future of CCE: How Budget Cuts May Affect the Program</a>&nbsp;for<em> The Guilfordian</em></p>
       <p><a href="http://www.rookiemag.com/2015/10/creative-prompt-travel-through-time/4/" target="_blank" >Creative Prompt: Tell a Stranger&rsquo;s Backstory</a>&nbsp;for <em>Rookie Magazine</em></p>
+  <br/>
+  <p>For even more, check out <a href="https://lilylou.tumblr.com/writing">my old portfolio</a>, or my author pages at <a href="https://www.pastemagazine.com/writers?name=lily%20lou">Paste Magazine</a>, <a href="https://lifehacker.com/author/lilylou1">Lifehacker</a>, <a href="https://www.dailytarheel.com/staff/lily-lou">The Daily Tar Heel</a> or <a href="https://www.guilfordian.com/staff_profile/lily-lou/">The Guilfordian</a>. </p>
   </div>
 )
 
