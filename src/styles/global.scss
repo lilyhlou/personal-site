@@ -4,10 +4,6 @@
 $font-stack: 'Karla', sans-serif;
 $primary-color: #333;
 
-html {
-    background: pink;
-}
-
 h2 {
     font-family: 'Lora', sans-serif;
     font-weight: bold;
@@ -66,9 +62,20 @@ div .sticky {
 }
 
 #about {
-    text-align: center;
+    text-align: left;
+    padding-bottom: 20vh;
+
 }
 
 div #about .container {
     padding-top: 10vh;
+
 }
+
+h2 {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #434343;
+  }
+  

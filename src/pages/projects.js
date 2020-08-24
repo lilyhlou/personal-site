@@ -8,7 +8,7 @@ import {Card, CardGroup} from 'react-bootstrap'
 
 const Projects = () => (
   <div className="flex" id="projects">
-    <h3 id="code">Featured Projects💾</h3>
+    <h3 id="code"><b>Featured Projects 💾</b></h3>
     <StaticQuery 
       query={projectsQuery}
       render={data => {
@@ -22,6 +22,7 @@ const Projects = () => (
               date={node.frontmatter.date} 
               body={node.excerpt}
               tech={node.frontmatter.tech}
+              source={node.frontmatter.source}
               image={node.frontmatter.image.childImageSharp.fluid}
                           />
         ))}

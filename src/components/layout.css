@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
+div#icons {
+  text-align: center;
+
+}
+.icon {
+  color: #434343;
+  margin: .3rem;
+
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -10,13 +20,6 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-h3 {
-  font-family: 'Lora', serif;
-  font-size: 35px;
-  color: #434343;
-  text-align: center;
-
 }
 
 h1.main {
@@ -30,10 +33,22 @@ h1.main {
 
 }
 h2 {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Karla', sans-serif;
   font-weight: bold;
   font-size: 40px;
-  color: blue;
+  color: #434343;
+}
+
+h3 {
+  font-family: 'Karla', sans-serif;
+  font-size: 1.5em;
+  color: #434343;
+  text-align: center;
+
+}
+p {
+  font-family: 'Karla', sans-serif;
+  color: #434343;
 }
 
 article,
@@ -665,4 +680,9 @@ h1.main {
 
 }
 
+#icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
 }

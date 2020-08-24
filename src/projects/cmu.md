@@ -1,10 +1,10 @@
 ---
 path: "/cmu-hci"
 date: Summer 2019
-title: "Learning Game & Human Computer Interaction"
+title: "Learning Game & Human Computer Interaction @ CMU"
 subtitle: "Developed learning games and quizzes and conducted literature reviews of existing ed-tech research for Carnegie Mellon's Human Computer Interaction Institute"
 tech: "jQuery, Javascript, HTML, CSS, Figma"
-source: 'github.com'
+source: ''
 image: "../images/hci.png"
 ---
 • Adapted learning games and intelligent tutoring systems from Flash to HTML5, CSS3, and JavaScript using Ionic and

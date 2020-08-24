@@ -4,7 +4,7 @@ date: Spring 2019
 title: "Thegrep Command Line Tool"
 subtitle: "Created command line tool in Vim to scan text for pattern matching a user-imputed regular expression, similar to ‘egrep’."
 tech: "Rust, Vim, Unit Tests"
-source: 'github.com'
+source: 'https://github.com/lilyhlou/regex-finder'
 image: "../images/regex.png"
 ---
 • Command line tool built in Vim to scan text for pattern matching a user-imputed regular expression, similar to ‘egrep.’
