@@ -5,6 +5,7 @@ module.exports = {
     author: `@lilylouu_`,
   },
   plugins: [
+    `gatsby-plugin-scroll-reveal`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {

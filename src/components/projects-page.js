@@ -7,7 +7,10 @@ import '../styles/card.scss';
 
 const Page = ({ title, subtitle, path, date, body, tech, source, image}) => {
     return(
-        <Card>
+        <Card data-sal="slide-up"
+        data-sal-duration="900"
+        data-sal-delay="0"
+        data-sal-easing="ease">
             <Card.Img src={image.src} alt={title}/>
             <Card.ImgOverlay>
 

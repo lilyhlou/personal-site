@@ -21,15 +21,19 @@ const MainPage = () => {
   };
 
  return (
-        <div id="header" className="flex">
+        <div id="header" className="flex" data-sal="fade">
           <div id="main"></div>
           <br />
           <br />
           <br />
           <br />
-          <h1 className="main">Hey, I'm Lily.</h1>
+          <h1 className="main" data-sal="slide-up"
+  data-sal-delay="300"
+  data-sal-easing="ease">Hey, I'm Lily.</h1>
 
-        <div className="typeDiv">
+        <div className="typeDiv" data-sal="fade"
+  data-sal-delay="300"
+  data-sal-easing="ease">
           <h3 className="type"> I like&nbsp;</h3>
           <h3 className="type"> 
             <Typewriter
@@ -44,7 +48,9 @@ const MainPage = () => {
           </h3>
           <br />
         </div>
-          <h3>Currently working as a developer for federal projects at IBM in Washington D.C. Previously, a journalist writing about pop culture and the internet.   </h3>
+          <h3 data-sal="fade"
+  data-sal-delay="300"
+  data-sal-easing="ease">Currently working as a developer for federal projects at IBM in Washington D.C. Previously, a journalist writing about pop culture and the internet.   </h3>
           <br />
           <br />
           <br />
