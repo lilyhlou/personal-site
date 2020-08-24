@@ -11,12 +11,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-html {
-  background: pink;
-  
-}
 h3 {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 35px;
   color: #434343;
   text-align: center;

@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const Writing = () => (
   <div className="flex" id="writing">
-    <h3>Featured Writing</h3>
+    <h3>Featured Writing📝</h3>
     <p><a href="https://www.huffpost.com/entry/the-other-side-of-campus-safety_b_5a202416e4b02edd56c6d74f">The Other Side of Campus Safety (about perceptions of safety on college campuses)</a> for <em>The Huffington Post</em></p>
       <p><a href="https://www.thenation.com/article/these-muslim-students-built-an-app-to-document-islamaphobia-on-campus/">These Muslim Students Built an App to Document Islamophobia on Campus&nbsp; </a>for <em>The Nation</em></p>
       <p><a href="http://www.dailytarheel.com/article/2016/10/dogspotting-at-unc-facebook-group-brings-people-together-through-dogs" target="_blank">&lsquo;Dogspotting&rsquo; Facebook group brings UNC together through love of dogs</a> for<em> The Daily Tar Heel</em></p>
@@ -21,6 +21,11 @@ const Writing = () => (
       <p><a href="http://www.rookiemag.com/2015/10/creative-prompt-travel-through-time/4/" target="_blank" >Creative Prompt: Tell a Stranger&rsquo;s Backstory</a>&nbsp;for <em>Rookie Magazine</em></p>
   <br/>
   <p>For even more, check out <a href="https://lilylou.tumblr.com/writing">my old portfolio</a>, or my author pages at <a href="https://www.pastemagazine.com/writers?name=lily%20lou">Paste Magazine</a>, <a href="https://lifehacker.com/author/lilylou1">Lifehacker</a>, <a href="https://www.dailytarheel.com/staff/lily-lou">The Daily Tar Heel</a> or <a href="https://www.guilfordian.com/staff_profile/lily-lou/">The Guilfordian</a>. </p>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+
   </div>
 )
 

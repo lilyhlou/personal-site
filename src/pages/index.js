@@ -8,6 +8,7 @@ import '../styles/global.scss';
 import MainPage from "./main.js";
 import Projects from "./projects.js";
 import Writing from "./writing.js";
+import About from "./about.js";
 
 
 const IndexPage = () => (
@@ -36,6 +37,8 @@ const IndexPage = () => (
 
         <Projects></Projects>
         <Writing></Writing>
+        <About></About>
+
         </Layout>
 
           )

@@ -57,3 +57,18 @@ p a:hover {
   display: flex;
   flex-direction: column;
 }
+
+div .sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  
+}
+
+#about {
+    text-align: center;
+}
+
+div #about .container {
+    padding-top: 10vh;
+}

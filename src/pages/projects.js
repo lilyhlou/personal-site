@@ -1,15 +1,14 @@
 import React from "react"
-import { Link, graphql, StaticQuery } from "gatsby"
+import {graphql, StaticQuery } from "gatsby"
 import '../styles/global.scss';
 import '../styles/projects.scss';
-import Img from "gatsby-image"
 import Page from "../components/projects-page"
 import SEO from "../components/seo"
 import {Card, CardGroup} from 'react-bootstrap'
 
 const Projects = () => (
   <div className="flex" id="projects">
-    <h3 id="code">Featured Projects</h3>
+    <h3 id="code">Featured Projects💾</h3>
     <StaticQuery 
       query={projectsQuery}
       render={data => {
