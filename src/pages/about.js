@@ -35,7 +35,7 @@ const About = () => (
   data-sal-easing="ease">Hey there! My name is Lily and I'm interested in a lot of different things. Here are a few of them:</p>
                    <h4 data-sal="slide-up"
   data-sal-delay="300"
-  data-sal-easing="ease">Journalism and Storytelling 🗣</h4>
+  data-sal-easing="ease">Journalism and Storytelling 📝</h4>
                     <p data-sal="slide-up"
   data-sal-delay="300"
   data-sal-easing="ease">
