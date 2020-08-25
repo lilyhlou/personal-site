@@ -10,7 +10,7 @@ const Projects = () => (
   <div className="flex" id="projects">
     <h3 id="code" data-sal="slide-up"
   data-sal-delay="300"
-  data-sal-easing="ease"><b>Featured Projects 💾</b></h3>
+  data-sal-easing="ease"><b>Featured Projects</b></h3>
     <StaticQuery 
       query={projectsQuery}
       render={data => {

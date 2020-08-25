@@ -27,7 +27,7 @@ const About = () => (
             <Container fluid id="about">
               <Row><Col><h3 className="sectionTitle" data-sal="slide-up"
   data-sal-delay="300"
-  data-sal-easing="ease"><b>✨About Me✨</b></h3></Col></Row>
+  data-sal-easing="ease"><b>About Me</b></h3></Col></Row>
               <Row>
                 <Col>
                   <p data-sal="slide-up"
@@ -43,16 +43,16 @@ const About = () => (
                     </p>
                     <h4 data-sal="slide-up"
   data-sal-delay="300"
-  data-sal-easing="ease">Technology🤖</h4>
+  data-sal-easing="ease">Technology 🤖</h4>
                     <p data-sal="slide-up"
   data-sal-delay="300"
-  data-sal-easing="ease">I stopped taking math classes after doing poorly in AB Calc in 10th grade. At UNC, I avoided classes that related to math until I took Intro to Computer Science after I needed a math credit to graduate. I was instantly hooked, spending countless hours working on problem sets and extra credit. I love problem solving and the way that my computer science courses challenge me to think in new ways. To me, coding feels like magic—nowhere else can I transform an idea into tangible, interactive programs through just a few lines of text. I love figuring out the different ways of solving a problem and understanding how a computer works, from C to assembly language to binary to circuits and transistors. Because of that, I continued to take classes in the CS department, hoping that knowing how to code would be useful to me someday, until I realized majoring in it was a possibility.</p>
+  data-sal-easing="ease">Aftering taking Intro to Computer Science my second semester of college, I was instantly hooked, spending countless hours working on problem sets and extra credit. I love problem solving and the way that my computer science courses challenge me to think in new ways. To me, coding feels like magic—nowhere else can I transform an idea into tangible, interactive programs through just a few lines of text. I love figuring out the different ways of solving a problem and understanding how a computer works, from C to assembly language to binary to circuits and transistors. Because of that, I continued to take classes in the CS department, hoping that knowing how to code would be useful to me someday, until I realized majoring in it was a possibility.</p>
                     <p data-sal="slide-up"
   data-sal-delay="300"
   data-sal-easing="ease">Since then, I've combined my interests in journalism and technology by taking classes in human computer interaction and digital humanities and as a developer and product manager at UNC’s <a href="http://reeseinnovate.com/">Reese Innovation Lab</a>, using technology to create products that improve storytelling and education. I also spent a summer reaching education technology (specifically, learning games) at Carngie Mellon's Human Computer Interaction Institute and volunteer as a data fellow at BlueBonnet Data, where I use Python and GIS to conduct research on voter outreach for Sam Edney's NC HD-113 campaign.</p>
                     <h4 data-sal="slide-up"
   data-sal-delay="300"
-  data-sal-easing="ease">Education/Community/Mentorship🎓</h4>
+  data-sal-easing="ease">Education/Community/Mentorship 🎓</h4>
                     <p data-sal="slide-up"
   data-sal-delay="300"
   data-sal-easing="ease">I owe everything I have to the people who have supported me—I owe my interests in journalism and computer science to two incredible professors who believed in me. My journalism professor continuously invested time and care into editing my articles, even once writing an entire page of feedback that was longer than my original article. I've had mentors who have helped me navigate industries I was unfamiliar with and helped me through imposter syndrome. I realize that not everyone has the same opportunities that I have.</p>

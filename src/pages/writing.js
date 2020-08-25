@@ -8,7 +8,7 @@ const Writing = () => (
   <div className="flex" id="writing">
     <h3 data-sal="slide-up"
   data-sal-delay="300"
-  data-sal-easing="ease"><b>Featured Writing 📝</b></h3>
+  data-sal-easing="ease"><b>Featured Writing</b></h3>
       <p data-sal="slide-up"
   data-sal-delay="300"
   data-sal-easing="ease"><a href="https://www.huffpost.com/entry/the-other-side-of-campus-safety_b_5a202416e4b02edd56c6d74f">The Other Side of Campus Safety (about perceptions of safety on college campuses)</a> for <em>The Huffington Post</em></p>

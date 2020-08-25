@@ -22,15 +22,37 @@ const IndexPage = () => (
         ...GatsbyImageSharpFluidLimitPresentationSize        }
       }
     }
+    backgroundMed: file(relativePath: {eq: "blob-med.png"}) {
+      childImageSharp {
+        fluid(maxWidth: 800) {
+          ...GatsbyImageSharpFluid
+        ...GatsbyImageSharpFluidLimitPresentationSize        }
+      }
+    }
+    backgroundSm: file(relativePath: {eq: "blob-sm.png"}) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid
+        ...GatsbyImageSharpFluidLimitPresentationSize        }
+      }
+    }
+
   }
       `}
   render={data => {
-    const imageData = data.background.childImageSharp.fluid
+    let imageData = data.background.childImageSharp.fluid;
+    let width = window.innerWidth;
+    if (width < 533) {
+      imageData = data.backgroundSm.childImageSharp.fluid;
+    } else if (width < 656) {
+      imageData = data.backgroundMed.childImageSharp.fluid;
+    }
+
+
     return (
       <Layout>
 
     <SEO title="Lily Lou — Personal Site" />
-
         <BackgroundImage id={`background-intro`} fluid={imageData}>
           <MainPage></MainPage>
         </BackgroundImage>
