@@ -39,14 +39,14 @@ const About = () => (
                     <p data-sal="slide-up"
   data-sal-delay="300"
   data-sal-easing="ease">
-                    Though I'm not actively reporting anymore, I owe most of my skillsets to what student newspapers and internships have taught me. As a journalist, I covered activism, politics, food and internet culture. I was especially interested in longform storytelling, which led me to join and become editor-in-chief of Synapse Magainze, a longform magazine at UNC and pitch my own articles on student activism to outlets. I also interned at UNC's Southern Oral History Center, where I interviewed and conducted research on American Indian Activists at UNC.                  
+                    Though I'm not actively reporting anymore, I owe most of my skillsets to what student newspapers and internships have taught me. As a journalist, I covered activism, politics, food and internet culture. I was especially interested in longform storytelling, which led me to join and become editor-in-chief of Synapse Magainze, a longform magazine at UNC, and pitch my own articles on student activism to various outlets. I also interned at UNC's Southern Oral History Center, where I interviewed and conducted research on American Indian Activists at UNC.                  
                     </p>
                     <h4 data-sal="slide-up"
   data-sal-delay="300"
   data-sal-easing="ease">Technology 🤖</h4>
                     <p data-sal="slide-up"
   data-sal-delay="300"
-  data-sal-easing="ease">Aftering taking Intro to Computer Science my second semester of college, I was instantly hooked, spending countless hours working on problem sets and extra credit. I love problem solving and the way that my computer science courses challenge me to think in new ways. To me, coding feels like magic—nowhere else can I transform an idea into tangible, interactive programs through just a few lines of text. I love figuring out the different ways of solving a problem and understanding how a computer works, from C to assembly language to binary to circuits and transistors. Because of that, I continued to take classes in the CS department, hoping that knowing how to code would be useful to me someday, until I realized majoring in it was a possibility.</p>
+  data-sal-easing="ease">After taking Intro to Computer Science my second semester of college, I was instantly hooked, spending countless hours working on problem sets and extra credit. I love problem solving and the way that my computer science courses challenged me to think in new ways. To me, coding feels like magic—nowhere else can I transform an idea into tangible, interactive programs through just a few lines of text. I love figuring out the different ways of solving a problem and understanding how a computer works, from C to assembly language to binary to circuits and transistors. Because of that, I continued to take classes in the CS department, hoping that knowing how to code would be useful to me someday, until I realized majoring in it was a possibility.</p>
                     <p data-sal="slide-up"
   data-sal-delay="300"
   data-sal-easing="ease">Since then, I've combined my interests in journalism and technology by taking classes in human computer interaction and digital humanities and as a developer and product manager at UNC’s <a href="http://reeseinnovate.com/">Reese Innovation Lab</a>, using technology to create products that improve storytelling and education. I also spent a summer reaching education technology (specifically, learning games) at Carngie Mellon's Human Computer Interaction Institute and volunteer as a data fellow at BlueBonnet Data, where I use Python and GIS to conduct research on voter outreach for Sam Edney's NC HD-113 campaign.</p>
@@ -64,7 +64,7 @@ const About = () => (
   data-sal-easing="ease">At UNC, I worked to build community through various student organizations. I was heavily involved in the Asian American community, where I helped avocate for an Asian American studies program and an Asian American Center (<a href="https://www.dailytarheel.com/article/2019/10/asian-american-center">which was created in Fall 2020</a>!) and organized <a href="https://taascon.org/">a conference on the complexity of Asian American identities for college students</a> in North Carolina's Triangle region.</p>
                     <h4 data-sal="slide-up"
   data-sal-delay="300"
-  data-sal-easing="ease">Misc.🏠</h4>
+  data-sal-easing="ease">Misc. 🏠</h4>
                     <p data-sal="slide-up"
   data-sal-delay="300"
   data-sal-easing="ease">Besides the above, I enjoy texting my friends, reading, listening to podcasts (recs: Still Processing, The Daily, FiveThirtyEight Politics, Longform and Reply All), watching TikToks and making different types of pasta. If you'd like to speak about anything above or if you'd like to tell me about some of your interests, reach out at lilylou16[at]gmail.com or find me on my social media below.</p>

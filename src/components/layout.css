@@ -662,10 +662,10 @@ pre tt:after {
 
 @media only screen and (max-width: 800px) {
   p {
-      font-size: 30px;
+      font-size: 18px;
   }  
   p.type {
-    font-size: 30px;
+    font-size: 18px;
   
   }
   
@@ -675,14 +675,14 @@ pre tt:after {
 }
 @media only screen and (max-width: 500px) {
   p {
-    font-size: 25px;
+    font-size: 15px;
 }  
 p.type {
-  font-size: 25px;
+  font-size: 15px;
 
 }
 h1.main {
-  font-size: 70px;
+  font-size: 50px;
 
 }
 

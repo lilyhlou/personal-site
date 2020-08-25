@@ -2,7 +2,7 @@
 path: "/paint-app"
 date: Fall 2017
 title: "Java Paint App"
-subtitle: "Image editor using Java UI including drawing functionality, adjustments to image, and pixel inspector. Extended app to create a movable 9-piece puzzle."
+subtitle: "Image editor using Java GUI including drawing functionality, adjustments to uploaded image, and a pixel color inspector. Extended app to create a movable 9-piece puzzle."
 tech: "JavaFX"
 source: 'https://github.com/lilyhlou/paintapp'
 image: "../images/paint-app.png"
