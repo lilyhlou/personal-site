@@ -1,14 +1,12 @@
-import React from "react"
-import { Link } from "gatsby"
+import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import BackgroundImage from "gatsby-background-image"
-import Layout from "../components/layout"
-import Image from "../components/image"
 import '../styles/global.scss';
-import { graphql, StaticQuery } from "gatsby"
-import Img from "gatsby-image"
+import '../styles/main.scss';
 import Typewriter from 'typewriter-effect';
 import GraphemeSplitter from "grapheme-splitter";
+import { graphql, useStaticQuery } from "gatsby"
+
 
 const MainPage = () => {
   const stringSplitter = string => {
@@ -63,5 +61,36 @@ const MainPage = () => {
   
   
   export default MainPage
+  
+  function useWindowSize() {
+    // Initialize state with undefined width/height so server and client renders match
+    // Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
+    const [windowSize, setWindowSize] = useState({
+      width: undefined,
+      height: undefined,
+    });
+  
+    useEffect(() => {
+      // Handler to call on window resize
+      function handleResize() {
+        // Set window width/height to state
+        setWindowSize({
+          width: window.innerWidth,
+          height: window.innerHeight,
+        });
+      }
+      
+      // Add event listener
+      window.addEventListener("resize", handleResize);
+      
+      // Call handler right away so state gets updated with initial window size
+      handleResize();
+      
+      // Remove event listener on cleanup
+      return () => window.removeEventListener("resize", handleResize);
+    }, []); // Empty array ensures that effect is only run on mount
+  
+    return windowSize;
+  }
   
   

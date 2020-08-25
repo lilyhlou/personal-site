@@ -63,12 +63,12 @@
 
   @media only screen and (max-width: 1024px) {
     .overlay {
-      height: 91%;
+      height: 92.7%;
     }
   }
   @media only screen and (max-width: 768px) {
     .overlay {
-      height: 89%;
+      height: 90.2%;
     }
   }
   @media only screen and (max-width: 425px) {
@@ -79,8 +79,15 @@
 
   @media only screen and (max-width: 375px) {
     .overlay {
-      height: 89.7%;
+      height: 89%;
     }
+    .overlay .card-title {
+      font-size: 1.1rem; 
+    }
+    .overlay .card-subtitle {
+      font-size: 0.85rem; 
+    }
+
   }
   @media only screen and (max-width: 320px) {
     .overlay {

@@ -9,10 +9,10 @@ const Header = ({ siteTitle }) => (
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto" activeKey="/home">
-      <Nav.Link href="#main">Home</Nav.Link>
-      <Nav.Link href="#code">Code</Nav.Link>
-      <Nav.Link href="#writing">Writing</Nav.Link>
-      <Nav.Link href="#about">About</Nav.Link>
+      <p><Nav.Link href="#main">Home</Nav.Link></p>
+      <p><Nav.Link href="#code">Code</Nav.Link></p>
+      <p><Nav.Link href="#writing">Writing</Nav.Link></p>
+      <p><Nav.Link href="#about">About</Nav.Link></p>
 
     </Nav>
     </Navbar.Collapse>

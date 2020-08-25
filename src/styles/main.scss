@@ -1,0 +1,18 @@
+div#header {
+    background-color: white;
+    background-image: url(../images/blob.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+@media only screen and (max-width: 750px) {
+    div#header {
+        background-image: url(../images/blob-med.png); 
+    }
+}
+@media only screen and (max-width: 565px) {
+    div#header {
+        background-image: url(../images/blob-sm.png); 
+    }
+}

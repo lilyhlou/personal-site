@@ -654,18 +654,13 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
-  }
-}
 
 @media only screen and (max-width: 800px) {
   p {
-      font-size: 30px;
+      font-size: 1.25rem;
   }  
   p.type {
-    font-size: 30px;
+    font-size: 1.25rem;
   
   }
   
@@ -674,11 +669,8 @@ pre tt:after {
   }
 }
 @media only screen and (max-width: 500px) {
-  p {
-    font-size: 25px;
-}  
 p.type {
-  font-size: 25px;
+  font-size: 1.25rem;
 
 }
 h1.main {
