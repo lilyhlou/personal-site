@@ -27,27 +27,32 @@ h3.description {
 
   }
 
-  @media only screen and (min-width: 1070px) {
+  @media only screen and (min-width: 1500px) {
     h1.main {
-      margin-top: 3vh;
+      margin-top: 9vh;
     }
   }
 
 
   @media only screen and (min-width: 1900px) {
     h3 {
-      font-size: 4rem;
+      font-size: 3rem;
     }
     p {
-      font-size: 3rem;
+      font-size: 2rem;
     }
     h4 {
       font-size: 3.3rem;
     }
-
+    h6 {
+      font-size: 2rem;
+    }
+    h5 {
+      font-size: 3rem;
+    }
     h1.main {
-      font-size: 14rem;
-      margin-top: 14vh;
+      font-size: 10rem;
+      margin-top: 10vh;
 
     } 
     h3.description {
