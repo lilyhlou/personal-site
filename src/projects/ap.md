@@ -1,11 +1,11 @@
 ---
-path: "/bluebonnet-data"
-date: May 2020 - Nov 2020
-title: "Bluebonnet Data"
-subtitle: "Conducted data research on internet deserts, radio advertisements, and local businesses for voter outreach for Sam Edney's NC-HD113 campaign."
-tech: "Python, GIS, web scraping"
-source: 'https://www.blueridgenow.com/news/20201021/nc-house-district-113-candidate-profile-sam-edney'
-image: "../images/bluebonnet.png"
+path: "/ap"
+date: Aug 2020 - Nov 2020
+title: "Associated Press elections web scraping"
+subtitle: "Contributed to developing and debugging AP elections infrastructure and web scraping county and state sites for 2020 election cycle."
+tech: "Python, web scraping, SQL"
+source: 'https://niemanreports.org/articles/how-the-ap-plans-to-report-the-election-results/'
+image: "../images/ap.png"
 ---
 • Researched broadband service datasets to visualize and create list of voters living inside internet deserts within district
 using ArcGIS, qGIS, and Pandas for Sam Edney’s NC House of Representatives campaign in team of 3 fellows.
