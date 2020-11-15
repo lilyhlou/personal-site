@@ -5,6 +5,9 @@ div#header {
     background-size: cover;
     background-position: center top;
 }
+
+
+
 @media only screen and (min-width: 1024px) {
 h3.description {
     margin-left: 7.3rem;
@@ -24,7 +27,14 @@ h3.description {
 
   }
 
-  @media only screen and (min-width: 2000px) {
+  @media only screen and (min-width: 1070px) {
+    h1.main {
+      margin-top: 3vh;
+    }
+  }
+
+
+  @media only screen and (min-width: 1900px) {
     h3 {
       font-size: 4rem;
     }

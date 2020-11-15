@@ -15,7 +15,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 94%;
+  height: 95%;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
@@ -63,7 +63,7 @@
 
   @media only screen and (max-width: 1024px) {
     .overlay {
-      height: 93%;
+      height: 94%;
     }
   }
   @media only screen and (max-width: 768px) {
@@ -104,7 +104,7 @@
       font-size: 4rem;
   }
   .overlay {
-    height: 97.1%;
+    height: 97.5%;
   }
 
   }
