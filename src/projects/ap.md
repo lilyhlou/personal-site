@@ -1,6 +1,6 @@
 ---
 path: "/ap"
-date: Aug 2020 - Nov 2020
+date: Aug 2020 - Present
 title: "Associated Press elections web scraping"
 subtitle: "Contributed to developing and debugging AP elections infrastructure and web scraping county and state sites for 2020 election cycle."
 tech: "Python, web scraping, SQL"
