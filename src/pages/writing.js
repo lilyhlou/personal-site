@@ -11,9 +11,6 @@ const Writing = () => (
   data-sal-easing="ease"><b>Featured Writing</b></h3>
       <p data-sal="slide-up"
   data-sal-delay="300"
-  data-sal-easing="ease"><a href="https://www.huffpost.com/entry/the-other-side-of-campus-safety_b_5a202416e4b02edd56c6d74f">The Other Side of Campus Safety (about perceptions of safety on college campuses)</a> for <em>The Huffington Post</em></p>
-      <p data-sal="slide-up"
-  data-sal-delay="300"
   data-sal-easing="ease"><a href="https://www.thenation.com/article/these-muslim-students-built-an-app-to-document-islamaphobia-on-campus/">These Muslim Students Built an App to Document Islamophobia on Campus&nbsp; </a>for <em>The Nation</em></p>
       <p data-sal="slide-up"
   data-sal-delay="300"
