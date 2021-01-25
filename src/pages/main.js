@@ -48,7 +48,7 @@ const MainPage = () => {
         </div>
           <h3 data-sal="fade"
   data-sal-delay="300"
-  data-sal-easing="ease" className="description">Currently working as a federal developer at IBM and web scraping/coding for the 2020 elections with the Associated Press. Previously, a journalist writing about pop culture and the internet.   </h3>
+  data-sal-easing="ease" className="description">Currently working as a software engineer at Own Up and web scraping/coding for elections with the Associated Press. Previously, a journalist writing about pop culture and the internet.   </h3>
           <br />
           <br />
           <br />
